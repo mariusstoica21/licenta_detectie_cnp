@@ -173,17 +173,7 @@ The sign up form has the role to sign up the users that do not have an account i
   >
 </p>
 
-<p align="center">
-  <img 
-    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/results.JPG"
-  >
-</p>
-
-<p align="center">
-  <img 
-    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/library.JPG"
-  >
-</p>
+After the processing stage, the processed image is displayed. Above the original CNP, a string of digits is shown, being the digits that the OCR predicted. In the given case, OCR has predicted well all the digits.
 
 <p align="center">
   <img 
@@ -191,7 +181,27 @@ The sign up form has the role to sign up the users that do not have an account i
   >
 </p>
 
+'Results' will display the images that correspond to the detected digits in CNP. Results appear only if the an image of identity card was loaded and send to processing. Under 'Images', the images of the digits are shown. Under 'Expected results', the expected results are shown, either with a green border for those who were classified correctly, or a red border otherwise.
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/results.JPG"
+  >
+</p>
+
+'Library' displays the saved images from the database, both original and processed. There are two tables, one with the original images, and another one with the processed images. The user may choose the image he/she wants to see, by clicking the desired filename. In case the size of the image shown is too small, the user can 'Open Image' and maximize it. 
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/library.JPG"
+  >
+</p>
+
+
+
 ### VHDL
+
+In the image below, the first 4 digits out of the 13 of the CNP are shown. The values of the CNP are shifted with 1 position to the left, once a second, so that all the digits will be displayed. The leds show the results of the outputs for every digit, in fixed point representation. Every digit has 10 possible outputs. Totally, there are 130 outputs, that can be shown by pressing one of the buttons of the FPGA board. 
 
 <p align="center">
   <img 
@@ -201,6 +211,9 @@ The sign up form has the role to sign up the users that do not have an account i
 
 ### Artificial Neural Network
 
+Confusion matrix outputs how many times the values were correctly predicted. For example, 0 was correctly predicted 962 times. The value 1 was correctly predicted 1116 times. It can be seen that the values on the diagonal are the greatest, since the digits were most of the time predicted correctly, the neural network having an accuracy of 92%. The confusion matrix also displays the digits with problems. For example, digit 4 was 49 times predicted as being 9.
+
+
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/ann.JPG"
@@ -208,8 +221,9 @@ The sign up form has the role to sign up the users that do not have an account i
 </p>
 
 
-
 ### Convolutional Neural Network
+
+The confusion matrix of the convolutional neural network has better results than the previous confusion matrix. The accuracy has grown from 92% to 98% for the testing dataset. For example, value 0 was predicted 976 times correctly using the CNN, as oposed to 962 with the ANN. The values on the diagonal are greater.
 
 <p align="center">
   <img 
@@ -218,6 +232,8 @@ The sign up form has the role to sign up the users that do not have an account i
 </p>
 
 ### Optical character recognition
+
+The preprocessing stage before giving the original image as an input for OCR algorithm with Tesseract. Original image was converted into grayscale image, than a tresholded image, and finally the input image after the canny edge detection was applied.
 
 <p align="center">
   <img 
