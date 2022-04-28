@@ -1,0 +1,1 @@
+# licenta_detectie_cnp
