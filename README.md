@@ -63,3 +63,45 @@ The installation process is described in chapter 7, page 79, of the [documentati
   - Conclusions: describes the biggest advantages of the system, possible upgrades/updates.
 
 📄 Synthesis.pdf : represents a short description of the project.
+
+### Technologies
+
+<table>
+  <tr>
+    <th>🔨 Tools/Framework</th>
+    <th>📘 Language</th>
+    <th>📃 Usage </th>
+    <th>➕ Additional resources  </th>
+    <th> ℹ Details  </th>
+  </tr>
+  <tr>
+    <td>Xilinx Vivado 2020</td>
+    <td>VHDL</td>
+    <td>Artificial neurnal network</td>
+    <td>Basys3 FPGA board, HTerm</td>
+    <td>
+       <ul>
+        <li>The input of the NN and the model (weights and biases) are send from the PC to the FPGA, using HTerm.</li>
+        <li>The values of the two files are stored in the block RAM memory of the FPGA.</li>
+        <li>The values are represented in fixed point representation.</li>
+         <li>The detection is made using a FSM (finite state machine).</li>
+         <li>The output of the NN is showed on the SSD (seven segment display) of the FPGA.</li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+    <td>Jupyter Notebook using Anaconda Navigator</td>
+    <td>Python</td>
+    <td>Convolutional neurnal network, Optical character recognition</td>
+    <td>Tensorflow, Tesseract</td>
+    <td>
+       <ul>
+        <li>The convolutional neural network was trained</li>
+        <li>The model of the artificial neural network is send to the FPGA board.</li>
+        <li>The OCR Script classifies and localizes the digit in the image of the ID.</li>
+        <li>The images of the ID's are preprocessed, and using OCR, the digits are detected.</li>
+      </ul>
+   </td>
+  </tr>
+</table>
+
