@@ -145,3 +145,31 @@ The installation process is described in chapter 7, page 79, of the [documentati
   </tr>
 </table>
 
+## Tutorial
+
+### Delphi
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/hjvt24TW/Component-25-1.png"
+  >
+</p>
+
+### VHDL
+
+### Artificial Neural Network
+
+### Convolutional Neural Network
+
+### Optical character recognition
+
+### MySQL
+
+
+
+
+## Authors
+
+- [@mariusstoica21](https://github.com/mariusstoica21)
+
+
