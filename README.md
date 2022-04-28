@@ -51,7 +51,7 @@ The installation process is described in chapter 7, page 79, of the [documentati
 
 📁 VHDL_files : contains the VHDL project that implements the artificial neural network that classifies the digits of the CNP.
     
-📄 [Documentation.pdf](https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Documentation.pdf)
+📄 Documentation.pdf
 : represents the full documentation of the system, and contains:
   - Introduction : short introduction of AI and the reason of creating the given project.
   - The purpose of the project: the main objectives of the system, the target group and the requirements of the system.
@@ -62,5 +62,4 @@ The installation process is described in chapter 7, page 79, of the [documentati
   - Installation manual: the steps required to install the apps of the system and the ways in which the apps can be run.
   - Conclusions: describes the biggest advantages of the system, possible upgrades/updates.
 
-📄 [Synthesis.pdf](https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Synthesis.pdf) : 
-represents a short description of the project.
+📄 Synthesis.pdf : represents a short description of the project.
