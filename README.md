@@ -130,5 +130,18 @@ The installation process is described in chapter 7, page 79, of the [documentati
       </ul>
    </td>
   </tr>
+  <tr>
+    <td>MYSQL Workbench</td>
+    <td>SQL</td>
+    <td>Database</td>
+    <td>XAMPP</td>
+    <td>
+       <ul>
+        <li>Information about users, original images and processed images are saved in the database.</li>
+        <li>Data are read from the database by the desktop application, using query's.</li>
+        <li>XAMPP allows the creation of a local MYSQL database.</li>
+      </ul>
+   </td>
+  </tr>
 </table>
 
