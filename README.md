@@ -103,5 +103,32 @@ The installation process is described in chapter 7, page 79, of the [documentati
       </ul>
    </td>
   </tr>
+  <tr>
+    <td>Eclipse</td>
+    <td>Java</td>
+    <td>Automatization app</td>
+    <td>Winium, Inspect.exe, Winium Desktop Driver</td>
+    <td>
+       <ul>
+        <li>The automatization app has the purpose to send automatically the input and weights files to the FPGA board.</li>
+        <li>The automatizan app was created using Winium.</li>
+        <li>In order to detect the id and names of the buttons, the Inspect.exe tool is used.</li>
+        <li>In order to run the automatization app, the 9999 port has to be assigned, using Winium Desktop Driver.</li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+    <td>Delphi</td>
+    <td>Objective Pascal</td>
+    <td>Desktop application</td>
+    <td>ImageButton</td>
+    <td>
+       <ul>
+        <li>The main advantage of using Delphi is the quickness in creating the desktop app, using the specialized objects.</li>
+        <li>The main disadvantage is the impossibility of colouring buttons.</li>
+        <li>This disadvantage was removed by implementing the ImageButton library, that allows using images on the background of the buttons.</li>
+      </ul>
+   </td>
+  </tr>
 </table>
 
