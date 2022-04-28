@@ -149,24 +149,81 @@ The installation process is described in chapter 7, page 79, of the [documentati
 
 ### Delphi
 
+Default form of the app. The form allows the user to log in, in order to have access to the apps functionalities. The user has to have an account and a password. The user has the option to sign up, by pressing "Don't you have an account? Sign up here". The entered password is hashed. The value of the hash is compared to the value of the hash in the database. If there is a match, the user is redirected to the menu of the app.
+
 <p align="center">
   <img 
-    src="https://i.postimg.cc/hjvt24TW/Component-25-1.png"
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/login.JPG"
+  >
+</p>
+
+The sign up form has the role to sign up the users that do not have an account in the database. The users have the option to choose their profile image, by pressing the 'Choose image' button. The profile image will be loaded from the file system. Users shall write the firstname, lastname, username and password. The password will be hashed and saved in the database.
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/signup.JPG"
+  >
+</p>
+
+'Load image' has the role to load an image with the identity card, and to pass it to the preprocessing stage. The user will choose the image by pressing the 'Choose image' button. The image can be selected from the file system, and once selected, it will appear in the 'Original image' area. By pressing the 'Send image' button, the original image will be send to the processing stage. After aprox. 15 seconds, the processed image with the CNP digits detected will be shown in the 'Processed image' area. Meanwhile, the input of the neural network and the model (weights and biases) will be send to the FPGA board, in order to classify the digits. The 'Remove images' button will delete both the original and processed images, giving the user the opportunity for a new process of detection.
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/load_image.JPG"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/results.JPG"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/library.JPG"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/res.JPG"
   >
 </p>
 
 ### VHDL
 
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/output.JPG"
+  >
+</p>
+
 ### Artificial Neural Network
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/ann.JPG"
+  >
+</p>
+
+
 
 ### Convolutional Neural Network
 
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/cnn.JPG"
+  >
+</p>
+
 ### Optical character recognition
 
-### MySQL
-
-
-
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/ocr.png"
+  >
+</p>
 
 ## Authors
 
