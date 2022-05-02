@@ -8,7 +8,7 @@
 
 The system receives an image of the identity card, localizes the 13 digits of the CNP (unique string of 13 digits), it
 classifies each digit, using a convolutional neural network. The digits are detected, and the results of the convolutions
-applied on them are send to the FPGA board, using UART transmission protocole. The artificial neural network implemented 
+applied on them are send to the FPGA board, using UART transmission protocol. The artificial neural network implemented 
 on the FPGA gets the intermediate results and the model (weights and biases) of the neural network, and classifies each 
 digit.
 
@@ -177,7 +177,7 @@ After the processing stage, the processed image is displayed. Above the original
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/res.JPG"
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/res.png"
   >
 </p>
 
@@ -193,7 +193,7 @@ After the processing stage, the processed image is displayed. Above the original
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/library.JPG"
+    src="https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Images/library.png"
   >
 </p>
 
