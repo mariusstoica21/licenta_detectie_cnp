@@ -13,9 +13,9 @@ on the FPGA gets the intermediate results and the model (weights and biases) of 
 digit.
 
 The requests of the system include:
-  - Creating a program that localizes the digits from CNP;
+  - Creating a program that localizes the digits from CNP.
   - Creating a program that gets every digit of the 13 digits and classifies each one of them, using a convolutional
-neural netowork.
+neural network.
   - Creating a desktop application, with a user-friendly graphic user interface, intuitive and fast, with a commercial look.
   - Creating a database in order to save the users of the app and data about them, (hashed passwords), the original images 
  and the processed images, and a event history of the app, for each user.
