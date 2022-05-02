@@ -33,7 +33,7 @@ The installation process is described in chapter 7, page 79, of the [documentati
 
 ✅ Additional hardware needed
 
-✅ Video available
+✅ [Video available](https://www.youtube.com/watch?v=b6LXl1tis6I)
 
 ✅ [Synthesis](https://github.com/mariusstoica21/licenta_detectie_cnp/blob/main/Synthesis.pdf)
 
